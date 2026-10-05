@@ -269,27 +269,121 @@
 // }
 
 
-class greater{
+// class greater{
 
 
-    void countofno(){
-        int [] arr = {1,2,3,4,5,6,8,7,9};
-        int x = 2;
-        int count = 0;
+//     void countofno(){
+//         int [] arr = {1,2,3,4,5,6,8,7,9};
+//         int x = 2;
+//         int count = 0;
 
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > x) {
-                count ++;
+//         for (int i = 0; i < arr.length; i++) {
+//             if (arr[i] > x) {
+//                 count ++;
                 
-            }   
-        }
+//             }   
+//         }
         
-        System.out.println("the numbers which are greater than "+x+ " is "+count);  
+//         System.out.println("the numbers which are greater than "+x+ " is "+count);  
+//     }
+// }
+// public class arrays{
+//     public static void main(String[] args) {
+//         greater obj = new greater();
+//         obj.countofno();  
+//     }   
+// }
+
+
+
+
+// class Array{
+
+//     static void Arraysorted(){
+
+//         int arr [] = {1,2,4,9,5,7};
+//         boolean sorted = true;
+        
+        
+//         for (int i = 1; i < arr.length; i++) {
+//             if (arr[i]<arr[i-1]) {
+//                 sorted = false;
+//                 break;
+              
+//             }
+                
+//             }
+//             System.out.println("the given element is: "+sorted);
+            
+            
+
+            
+  
+//         }
+        
+        
+
+//     }
+
+// public class arrays{
+//     public static void main(String[] args) {
+//         Array.Arraysorted();
+        
+//     }
+// }
+
+
+
+
+
+
+// import java.util.Arrays;
+
+// class question{
+
+//     static void sort(){
+//         int arr[] = {2,4,3,1,8,5,7,6};
+//         Arrays.sort(arr);
+
+//         for (int i = 0; i < arr.length; i++) {
+//             System.out.print(arr[i]+" ");
+            
+//         }
+
+//     }
+// }
+
+// public class arrays{
+
+
+//     public static void main(String[] args) {
+//         question.sort();
+        
+//     }
+// }
+import java.util.Arrays;
+
+class question{
+
+    static void smallestlargest(){
+
+        int [] arr = {1,2,3,4,6,7,9};
+        Arrays.sort(arr);
+
+        int smallest = arr[0];
+        int largest = arr[arr.length-1];
+
+    
+        System.out.println("smallest: A"+smallest);
+        System.out.println("largest: "+largest);
+
     }
+
 }
 public class arrays{
+
     public static void main(String[] args) {
-        greater obj = new greater();
-        obj.countofno();  
-    }   
+        question.smallestlargest();
+        
+    }
 }

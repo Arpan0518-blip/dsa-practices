@@ -15,6 +15,14 @@ import java.util.Scanner;
 //     }
 // }
 
+
+
+
+
+
+
+
+
 // import java.util.Scanner;
 
 // public class ifelse{
@@ -37,6 +45,13 @@ import java.util.Scanner;
 //         }
 //     }
 // }
+
+
+
+
+
+
+
 // import java.util.Scanner;
 
 // public class ifelse{
@@ -56,6 +71,14 @@ import java.util.Scanner;
 
 //     }
 // }
+
+
+
+
+
+
+
+
 
 // import java.util.Scanner;
 
@@ -379,30 +402,90 @@ import java.util.Scanner;
 //     }
 
 
+// public class ifelse{
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("enter the value of x: ");
+//         int x = sc.nextInt();
+//         System.out.print("enter the value of y: ");
+//         int y = sc.nextInt();
+
+//         if (x==0 && y==0) {
+//             System.out.println("point is at origin. "+x+ " , "+y);
+            
+            
+//         }else if(x==0){
+//             System.out.println("the point is at x axis. "+x+ " ,"+y);
+
+//         }
+//         else if(y==0){
+//             System.out.println("the point is at y axis. "+y+ " ,"+x);
+
+
+//         }else{
+//             System.out.println("the point is on both axis. "+x+ " , "+y);
+//         }
+
+//     }
+// }
+
+
+
+
+
+
+
+// public class ifelse{
+//     public static void main(String[] args) {
+//         int marks = 80; 
+//         if (marks<= 75) {
+//             System.out.println("good");
+            
+//         }else
+//             System.out.println("very good");
+//     }
+// }
+
+
+
+
+
+// public class ifelse{
+
+//     public static void main(String[] args) {
+//         int age = 21;
+
+//         if (age>=18) {
+//             System.out.println("eligible");
+            
+//         }else
+//             System.out.println("not eligible");
+//     }
+// }
+
+
+
+
+
 public class ifelse{
-
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("enter the value of x: ");
-        int x = sc.nextInt();
-        System.out.print("enter the value of y: ");
-        int y = sc.nextInt();
+        int point = 50;
 
-        if (x==0 && y==0) {
-            System.out.println("point is at origin. "+x+ " , "+y);
-            
-            
-        }else if(x==0){
-            System.out.println("the point is at x axis. "+x+ " ,"+y);
+        if (point>=90) 
+            System.out.println("grade A");
 
-        }
-        else if(y==0){
-            System.out.println("the point is at y axis. "+y+ " ,"+x);
+        else if (point >= 80 && point  < 90)
+            System.out.println("grade B");
 
+        else if (point >= 70 && point  < 80)
+            System.out.println("grade B");
 
-        }else{
-            System.out.println("the point is on both axis. "+x+ " , "+y);
-        }
+        else System.out.println("grade C");
+
+        
+        
 
     }
 }
+
