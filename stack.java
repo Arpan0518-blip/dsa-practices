@@ -9,5 +9,19 @@ public class stack{
         st.push(3);
         st.push(5);
         System.out.println(st);
+
+        Stack <Integer> reverse = new Stack<>();
+        while (st.size()>0) {
+            int x = st.peek();
+            reverse.push(x);
+            st.pop();
+        }
+        Stack <Integer> ans = new Stack<>();
+        while (reverse.size()>0) {
+            ans.push(reverse.pop());
+            
+        }
+        System.out.println(ans);
+        
     }
 }
