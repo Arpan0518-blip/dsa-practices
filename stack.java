@@ -55,6 +55,7 @@ public class stack{
         while (copy.size()>0) {
             st.push(copy.pop());
         }
+        System.out.println();
         
         System.out.println(st);
         
