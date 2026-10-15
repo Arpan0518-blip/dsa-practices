@@ -43,6 +43,7 @@ public class stack{
         st.push(2);
         st.push(3);
         st.push(5);
+        st.push(6);
         System.out.println(st);
         int idx = 2;
 
