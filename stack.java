@@ -79,7 +79,7 @@ public class stack{
     public static boolean isBalanced(String str){
         Stack<Character> st = new Stack <>();
         int n = str.length();
-        for(int i = 0; i <= n ; i++){
+        for(int i = 0; i < n ; i++){
             char ch = str.charAt(i);
             if (ch == '(') {
                 st.push(ch);
