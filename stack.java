@@ -85,13 +85,13 @@ public class stack{
                 st.push(ch);
             }
             else{
-                if(st.size()==0) return false;
+                if(st.size()==0)
+                     return false;
                 if(st.peek() == '(') st.pop();
             }
         }
         if(st.size()>0) return false;
         else return true;
-
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
