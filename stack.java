@@ -97,7 +97,7 @@ public class stack{
         Scanner sc = new Scanner (System.in);
         System.out.println("enter the required string: ");
         String str = sc.nextLine();
-        System.out.println("the required ans is: ");
+        System.out.println("the required ans"+ str);
         System.out.println(isBalanced(str));
     }
 }
