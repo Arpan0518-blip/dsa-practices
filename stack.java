@@ -78,7 +78,6 @@ public class stack{
 
     public static boolean isBalanced(String str){
         Stack<Character> st = new Stack <>();
-        System.out.println("enter the value of n: ");
         int n = str.length();
         for(int i = 0; i < n ; i++){
             char ch = str.charAt(i);
@@ -98,6 +97,7 @@ public class stack{
         Scanner sc = new Scanner (System.in);
         System.out.println("enter the required string: ");
         String str = sc.nextLine();
+        System.out.println("the required ans is: ");
         System.out.println(isBalanced(str));
     }
 }
