@@ -86,18 +86,22 @@ public class stack{
             }
             else{
                 if(st.size()==0)
-                     return false;
+                    return false;
                 if(st.peek() == '(') st.pop();
             }
         }
-        if(st.size()>0) return false;
-        else return true;
+        if(st.size()>0)
+
+            return false;
+        else 
+            return true;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.println("enter the required string: ");
+        System.out.println("enter the required string: ");
         String str = sc.nextLine();
-        System.out.println("the required ans"+ str);
+        System.out.println("the required ans : ");
         System.out.println(isBalanced(str));
     }
 }
