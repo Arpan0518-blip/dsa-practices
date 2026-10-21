@@ -44,6 +44,8 @@ public class stack{
         st.push(3);
         st.push(5);
         st.push(6);
+        st.push(8);
+        st.push(9);
         System.out.println(st);
         int idx = 2;
 
@@ -56,8 +58,6 @@ public class stack{
         while (copy.size()>0) {
             st.push(copy.pop());
         }
-
-        
         System.out.println(st);
         
         
